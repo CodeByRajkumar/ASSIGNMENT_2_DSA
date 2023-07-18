@@ -1,22 +1,20 @@
 class product
 {
-int pid;
+        int pid;
+        double price; static double tot_price;
 
-double price; static double tot_price; product(int pid, double price)
+        product(int pid, double price){
+                this.pid = pid; this.price = price;        
+                void display(){
 
-this.pid = pid; this.price = price;
+                        System.out.println(pid +"\t\t"+ price);
 
-}
-void display(){
-
-System.out.println(pid +"\t\t"+ price);
-
-}
-static double totalAmount(product[] prod)
-{
-for (int i = 0; i < prod.length; i++) 
-        tot_price += prod[i].price;
-return tot price;
+                }
+                static double totalAmount(product[] prod){
+                        for (int i = 0; i < prod.length; i++) 
+                        tot_price += prod[i].price;
+                         return tot price;
+                }
 }
 
 public class Q4
