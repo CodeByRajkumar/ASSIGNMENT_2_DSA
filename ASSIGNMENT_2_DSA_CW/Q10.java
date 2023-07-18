@@ -6,7 +6,7 @@ public class Q10 implements Sports {
 		Test t = new Test();
 		t.input();
 		t.output();
-      int grand_total_mark = t.mark1+t.mark2+score1+score2;
+		int grand_total_mark = t.mark1+t.mark2+score1+score2;
 		System.out.println("Grand total score and mark "+grand_total_mark);		
 	}
 }
