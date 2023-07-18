@@ -7,12 +7,11 @@ public class Q10 implements Sports {
 		t.input();
 		t.output();
       int grand_total_mark = t.mark1+t.mark2+score1+score2;
-		System.out.println("Grand total score and mark "+grand_total_mark);
-		
+		System.out.println("Grand total score and mark "+grand_total_mark);		
 	}
-
 }
 //package Pack
+
 package Pack;
 import java.util.*;
 class student1{
@@ -43,11 +42,9 @@ public class Test extends student1{
 	
 }
 //package Pack1
-package Pack1;
 
-public interface Sports{
-	
+package Pack1;
+public interface Sports{	
 	public int score1=20;
-	public int score2=30;
-	
+	public int score2=30;	
 }
